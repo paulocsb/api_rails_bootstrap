@@ -3,7 +3,7 @@
 Bootstrap Ruby on Rails 5 API (only)
 
 - Ruby 2.2.2+
-- Rails 5
+- Rails 5.0.0
 - Postgresql
 - Rack CORS
 - Rack Attack
@@ -13,29 +13,26 @@ Bootstrap Ruby on Rails 5 API (only)
 - Puma
 
 ### Prerequisities
-
 ```
 Ruby 2.2.2+
-Rails 5
+Rails 5.0
 ```
 
 ### Installing
-
 ```
-bundle install
-rake db:setup
+$ bundle install
+$ rails db:setup
 ```
 
-And run server
-
+and run server
 ```
-rails s
+$ rails s
 ```
 
 ## Running the tests
 
 ```
-curl -H "Authorization: Token token=<TOKEN>" http://localhost:3000/v1/users
+$ curl -H "Authorization: Token token=<TOKEN>" http://localhost:3000/v1/users
 ```
 
 ## Authors
